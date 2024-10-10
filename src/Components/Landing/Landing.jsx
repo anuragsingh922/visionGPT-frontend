@@ -161,6 +161,7 @@ function Vision_GPT() {
             base64image: base64image?base64image:null,
             chat: chathistory,
             type: "tool",
+            screen : false,
           }
         );
 
@@ -220,6 +221,7 @@ function Vision_GPT() {
               base64image: b_string,
               chat: chathistory,
               type: "normal",
+              screen : true,
             }
           );
 
